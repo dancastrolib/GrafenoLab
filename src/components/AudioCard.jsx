@@ -8,13 +8,13 @@ export default function AudioCard({ duration, title, description, src }) {
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
-            strokeWidth="1.8"
+            strokeWidth="1.7"
             strokeLinecap="round"
             strokeLinejoin="round"
           >
-            <path d="M4 12a8 8 0 1 1 16 0" />
-            <path d="M6 12v6a2 2 0 0 0 2 2h1v-8H8a2 2 0 0 0-2 2Z" />
-            <path d="M18 12v6a2 2 0 0 1-2 2h-1v-8h1a2 2 0 0 1 2 2Z" />
+            <path d="M5 13a7 7 0 0 1 14 0" />
+            <rect x="5" y="13" width="3.5" height="6" rx="1.5" />
+            <rect x="15.5" y="13" width="3.5" height="6" rx="1.5" />
           </svg>
         </span>
 
